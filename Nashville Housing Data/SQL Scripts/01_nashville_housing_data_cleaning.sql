@@ -25,7 +25,7 @@ UPDATE Nashville_Housing..housing
 GO
 
 -- Populate Property Address Data
--- The property address is black for some rows. Need to populate the address in those rows. 
+-- The property address is blank for some rows. Need to populate the address in those rows. 
 -- The Parcel ID is repeated in the table. The address of the property is linked to the Parcel ID i.e for a single Parcel ID the address will be the same.
 -- The Unique ID, however, is unique to each row. Use Unique ID to distinguish between the rows and populate the address based by copying from another row with the same Parcel ID.
 
